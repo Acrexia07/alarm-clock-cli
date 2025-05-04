@@ -10,7 +10,7 @@ public class UserInputHandler {
         //Initialization: Object Declaration
         Scanner scn = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
-        String filePath = "src/Fur Elise (by Beethoven) - Beethoven.wav";
+        String filePath = "src/AlarmSound/Fur Elise (by Beethoven) - Beethoven.wav";
 
         // Process: Validate time input
         LocalTime alarmTime = InputValidator.validateTimeInput(formatter, scn);

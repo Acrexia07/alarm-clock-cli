@@ -31,7 +31,7 @@ public class AlarmClock implements Runnable{
             }
         }
         // Output: Display Alarm message prompt
-        System.out.println("*🔔⏰ Alarm has hit the time " + alarmTime + " ⏰🔔*");
+        System.out.println("\n*🔔⏰ Alarm has hit the time " + alarmTime + " ⏰🔔*");
 
         // Method: Plays an alarm sound
         MusicSound.alarmSound(filePath, scn);
